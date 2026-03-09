@@ -66,6 +66,7 @@ from flag_gems.ops.cummax import cummax
 from flag_gems.ops.cummin import cummin
 from flag_gems.ops.cumsum import cumsum, cumsum_out, normed_cumsum
 from flag_gems.ops.diag import diag
+from flag_gems.ops.diff import diff
 from flag_gems.ops.diag_embed import diag_embed
 from flag_gems.ops.diagonal import diagonal_backward
 from flag_gems.ops.div import (
@@ -318,6 +319,7 @@ __all__ = [
     "cumsum",
     "cumsum_out",
     "diag",
+    "diff",
     "diag_embed",
     "diagonal_backward",
     "div_mode",
