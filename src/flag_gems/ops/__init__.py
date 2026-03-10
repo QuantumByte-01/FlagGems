@@ -166,6 +166,7 @@ from flag_gems.ops.per_token_group_quant_fp8 import (
     SUPPORTED_FP8_DTYPE,
     per_token_group_quant_fp8,
 )
+from flag_gems.ops.pixel_shuffle import pixel_shuffle, pixel_unshuffle
 from flag_gems.ops.polar import polar
 from flag_gems.ops.pow import (
     pow_scalar,
@@ -445,6 +446,8 @@ __all__ = [
     "one_hot",
     "pad",
     "per_token_group_quant_fp8",
+    "pixel_shuffle",
+    "pixel_unshuffle",
     "polar",
     "pow_scalar",
     "pow_tensor_scalar",
